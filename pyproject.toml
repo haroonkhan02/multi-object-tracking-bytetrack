@@ -22,11 +22,15 @@ dependencies = [
 
 [project.optional-dependencies]
 detect = ["ultralytics>=8.3", "torch>=2.2"]
+# TrackEval is not on PyPI; pinned to the last upstream commit.
+eval = ["trackeval @ git+https://github.com/JonathonLuiten/TrackEval.git@12c8791b303e0a0b50f753af204249e622d0281a"]
 dev = ["pytest>=8", "ruff>=0.6"]
 
 [project.scripts]
 mot-download = "mot_track.download:main"
 mot-check = "mot_track.dataset_stats:main"
+mot-detect = "mot_track.detect:main"
+mot-track = "mot_track.track:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

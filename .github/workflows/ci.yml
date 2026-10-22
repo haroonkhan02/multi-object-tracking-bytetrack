@@ -18,10 +18,12 @@ jobs:
           python-version: ${{ matrix.python-version }}
           cache: pip
       # Tests use a synthetic MOT sequence: no dataset, detector weights, torch or GPU.
+      # TrackEval is installed so the metric wrapper is tested against the real library.
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install numpy scipy pandas opencv-python-headless matplotlib pyyaml tqdm pytest ruff
+          pip install "trackeval @ git+https://github.com/JonathonLuiten/TrackEval.git@12c8791b303e0a0b50f753af204249e622d0281a"
           pip install -e . --no-deps
       - name: Lint
         run: ruff check .
