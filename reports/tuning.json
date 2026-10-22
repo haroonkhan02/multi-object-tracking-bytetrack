@@ -1,0 +1,2795 @@
+{
+ "best": {
+  "sort": {
+   "det_thresh": 0.2,
+   "max_age": 30,
+   "min_hits": 3
+  },
+  "bytetrack": {
+   "track_thresh": 0.2,
+   "match_thresh": 0.95,
+   "track_buffer": 30,
+   "new_track_thresh": 0.3
+  }
+ },
+ "runs": {
+  "sort-0.1-1-1": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.1,
+    "max_age": 1,
+    "min_hits": 1
+   },
+   "tracker_fps": 2465.7,
+   "combined": {
+    "HOTA": 46.12680821711098,
+    "DetA": 46.55180002309354,
+    "AssA": 46.97574570396583,
+    "MOTA": 39.83520727834521,
+    "IDF1": 50.57117595048629,
+    "IDSW": 1143,
+    "FP": 15248,
+    "FN": 18658,
+    "MT": 130,
+    "ML": 53,
+    "Frag": 1222
+   }
+  },
+  "sort-0.1-1-3": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.1,
+    "max_age": 1,
+    "min_hits": 3
+   },
+   "tracker_fps": 2530.5,
+   "combined": {
+    "HOTA": 46.59827663781104,
+    "DetA": 47.01850566844835,
+    "AssA": 47.37740767625313,
+    "MOTA": 42.55257059479873,
+    "IDF1": 51.560515332970425,
+    "IDSW": 928,
+    "FP": 13124,
+    "FN": 19414,
+    "MT": 113,
+    "ML": 60,
+    "Frag": 1166
+   }
+  },
+  "sort-0.1-10-1": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.1,
+    "max_age": 10,
+    "min_hits": 1
+   },
+   "tracker_fps": 2121.7,
+   "combined": {
+    "HOTA": 47.371823325028764,
+    "DetA": 46.04773963563084,
+    "AssA": 50.028958795181374,
+    "MOTA": 38.1151832460733,
+    "IDF1": 53.06005121861988,
+    "IDSW": 1199,
+    "FP": 16572,
+    "FN": 18280,
+    "MT": 129,
+    "ML": 48,
+    "Frag": 1322
+   }
+  },
+  "sort-0.1-10-3": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.1,
+    "max_age": 10,
+    "min_hits": 3
+   },
+   "tracker_fps": 2128.8,
+   "combined": {
+    "HOTA": 47.93021598917999,
+    "DetA": 46.52000904095995,
+    "AssA": 50.618813625912736,
+    "MOTA": 40.33988498841301,
+    "IDF1": 54.10333806818181,
+    "IDSW": 1067,
+    "FP": 14909,
+    "FN": 18779,
+    "MT": 120,
+    "ML": 57,
+    "Frag": 1322
+   }
+  },
+  "sort-0.1-30-1": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.1,
+    "max_age": 30,
+    "min_hits": 1
+   },
+   "tracker_fps": 1694.0,
+   "combined": {
+    "HOTA": 47.27107074810281,
+    "DetA": 45.95547422830986,
+    "AssA": 49.83054100345882,
+    "MOTA": 37.6396875804652,
+    "IDF1": 53.54856617455719,
+    "IDSW": 1286,
+    "FP": 16909,
+    "FN": 18133,
+    "MT": 130,
+    "ML": 47,
+    "Frag": 1343
+   }
+  },
+  "sort-0.1-30-3": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.1,
+    "max_age": 30,
+    "min_hits": 3
+   },
+   "tracker_fps": 1697.7,
+   "combined": {
+    "HOTA": 47.61048348535999,
+    "DetA": 46.389937931084056,
+    "AssA": 50.04307993129778,
+    "MOTA": 39.67213114754099,
+    "IDF1": 54.20936590528266,
+    "IDSW": 1184,
+    "FP": 15420,
+    "FN": 18540,
+    "MT": 124,
+    "ML": 54,
+    "Frag": 1354
+   }
+  },
+  "sort-0.15-1-1": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.15,
+    "max_age": 1,
+    "min_hits": 1
+   },
+   "tracker_fps": 2832.5,
+   "combined": {
+    "HOTA": 46.493863914908886,
+    "DetA": 47.468420329466696,
+    "AssA": 46.6610690209445,
+    "MOTA": 45.470775040769034,
+    "IDF1": 51.162356630239,
+    "IDSW": 965,
+    "FP": 10722,
+    "FN": 20079,
+    "MT": 120,
+    "ML": 60,
+    "Frag": 1168
+   }
+  },
+  "sort-0.15-1-3": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.15,
+    "max_age": 1,
+    "min_hits": 3
+   },
+   "tracker_fps": 2848.1,
+   "combined": {
+    "HOTA": 46.776281580510094,
+    "DetA": 47.525735394627574,
+    "AssA": 47.090299829242234,
+    "MOTA": 47.10840271221354,
+    "IDF1": 51.874863018267405,
+    "IDSW": 787,
+    "FP": 9228,
+    "FN": 20797,
+    "MT": 107,
+    "ML": 69,
+    "Frag": 1110
+   }
+  },
+  "sort-0.15-10-1": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.15,
+    "max_age": 10,
+    "min_hits": 1
+   },
+   "tracker_fps": 2452.7,
+   "combined": {
+    "HOTA": 48.06938332564782,
+    "DetA": 47.269851317223164,
+    "AssA": 49.99205997333211,
+    "MOTA": 44.59359711612737,
+    "IDF1": 54.43997638899136,
+    "IDSW": 973,
+    "FP": 11609,
+    "FN": 19695,
+    "MT": 121,
+    "ML": 58,
+    "Frag": 1288
+   }
+  },
+  "sort-0.15-10-3": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.15,
+    "max_age": 10,
+    "min_hits": 3
+   },
+   "tracker_fps": 2451.6,
+   "combined": {
+    "HOTA": 48.42028527657664,
+    "DetA": 47.44459751779191,
+    "AssA": 50.47317037535193,
+    "MOTA": 45.97373615998627,
+    "IDF1": 55.24829801380318,
+    "IDSW": 866,
+    "FP": 10442,
+    "FN": 20165,
+    "MT": 109,
+    "ML": 63,
+    "Frag": 1273
+   }
+  },
+  "sort-0.15-30-1": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.15,
+    "max_age": 30,
+    "min_hits": 1
+   },
+   "tracker_fps": 2020.9,
+   "combined": {
+    "HOTA": 48.28948667250927,
+    "DetA": 47.24687832588461,
+    "AssA": 50.43312265302622,
+    "MOTA": 44.34125826109347,
+    "IDF1": 55.26419866636009,
+    "IDSW": 1065,
+    "FP": 11787,
+    "FN": 19572,
+    "MT": 123,
+    "ML": 58,
+    "Frag": 1317
+   }
+  },
+  "sort-0.15-30-3": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.15,
+    "max_age": 30,
+    "min_hits": 3
+   },
+   "tracker_fps": 2024.6,
+   "combined": {
+    "HOTA": 48.75036139360519,
+    "DetA": 47.402616627984564,
+    "AssA": 51.195460382058485,
+    "MOTA": 45.53428890224015,
+    "IDF1": 56.12396162559785,
+    "IDSW": 940,
+    "FP": 10769,
+    "FN": 20020,
+    "MT": 113,
+    "ML": 63,
+    "Frag": 1327
+   }
+  },
+  "sort-0.2-1-1": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.2,
+    "max_age": 1,
+    "min_hits": 1
+   },
+   "tracker_fps": 3119.4,
+   "combined": {
+    "HOTA": 46.94501185056688,
+    "DetA": 47.39138241133712,
+    "AssA": 47.504854509521934,
+    "MOTA": 47.97528109175178,
+    "IDF1": 52.13775455805523,
+    "IDSW": 822,
+    "FP": 8072,
+    "FN": 21413,
+    "MT": 112,
+    "ML": 72,
+    "Frag": 1171
+   }
+  },
+  "sort-0.2-1-3": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.2,
+    "max_age": 1,
+    "min_hits": 3
+   },
+   "tracker_fps": 3137.7,
+   "combined": {
+    "HOTA": 47.087597435900676,
+    "DetA": 47.17474209495523,
+    "AssA": 47.93637518742212,
+    "MOTA": 48.84215947129002,
+    "IDF1": 52.629295896839324,
+    "IDSW": 680,
+    "FP": 7023,
+    "FN": 22099,
+    "MT": 96,
+    "ML": 77,
+    "Frag": 1075
+   }
+  },
+  "sort-0.2-10-1": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.2,
+    "max_age": 10,
+    "min_hits": 1
+   },
+   "tracker_fps": 2737.8,
+   "combined": {
+    "HOTA": 48.31008522943656,
+    "DetA": 47.30560110169835,
+    "AssA": 50.316815563614185,
+    "MOTA": 47.571882241867655,
+    "IDF1": 55.657650910696965,
+    "IDSW": 799,
+    "FP": 8692,
+    "FN": 21051,
+    "MT": 114,
+    "ML": 69,
+    "Frag": 1302
+   }
+  },
+  "sort-0.2-10-3": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.2,
+    "max_age": 10,
+    "min_hits": 3
+   },
+   "tracker_fps": 2741.1,
+   "combined": {
+    "HOTA": 48.42743159098883,
+    "DetA": 47.25911048964952,
+    "AssA": 50.56528938211223,
+    "MOTA": 48.359797442279636,
+    "IDF1": 55.97767969980363,
+    "IDSW": 689,
+    "FP": 7875,
+    "FN": 21519,
+    "MT": 103,
+    "ML": 75,
+    "Frag": 1261
+   }
+  },
+  "sort-0.2-30-1": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.2,
+    "max_age": 30,
+    "min_hits": 1
+   },
+   "tracker_fps": 2300.3,
+   "combined": {
+    "HOTA": 49.01492846187546,
+    "DetA": 47.350757082640364,
+    "AssA": 51.69117382612778,
+    "MOTA": 47.41567247446571,
+    "IDF1": 57.237018585936006,
+    "IDSW": 851,
+    "FP": 8826,
+    "FN": 20956,
+    "MT": 115,
+    "ML": 67,
+    "Frag": 1328
+   }
+  },
+  "sort-0.2-30-3": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.2,
+    "max_age": 30,
+    "min_hits": 3
+   },
+   "tracker_fps": 2310.4,
+   "combined": {
+    "HOTA": 49.34507169110391,
+    "DetA": 47.327895157033865,
+    "AssA": 52.388230207970366,
+    "MOTA": 48.207020856578836,
+    "IDF1": 57.85628464013023,
+    "IDSW": 744,
+    "FP": 8061,
+    "FN": 21367,
+    "MT": 107,
+    "ML": 75,
+    "Frag": 1292
+   }
+  },
+  "sort-0.25-1-1": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.25,
+    "max_age": 1,
+    "min_hits": 1
+   },
+   "tracker_fps": 3346.8,
+   "combined": {
+    "HOTA": 46.55172448092026,
+    "DetA": 46.534229828447934,
+    "AssA": 47.406695818177994,
+    "MOTA": 48.045661316625186,
+    "IDF1": 52.00607113614123,
+    "IDSW": 800,
+    "FP": 6551,
+    "FN": 22915,
+    "MT": 106,
+    "ML": 74,
+    "Frag": 1169
+   }
+  },
+  "sort-0.25-1-3": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.25,
+    "max_age": 1,
+    "min_hits": 3
+   },
+   "tracker_fps": 3360.5,
+   "combined": {
+    "HOTA": 46.60086203514531,
+    "DetA": 46.136988182278024,
+    "AssA": 47.84332445225728,
+    "MOTA": 48.44734357565874,
+    "IDF1": 52.37076612698831,
+    "IDSW": 653,
+    "FP": 5754,
+    "FN": 23625,
+    "MT": 92,
+    "ML": 83,
+    "Frag": 1070
+   }
+  },
+  "sort-0.25-10-1": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.25,
+    "max_age": 10,
+    "min_hits": 1
+   },
+   "tracker_fps": 2989.4,
+   "combined": {
+    "HOTA": 48.14230206683058,
+    "DetA": 46.64461924356386,
+    "AssA": 50.48721587025239,
+    "MOTA": 48.09200926959059,
+    "IDF1": 55.44027087499752,
+    "IDSW": 715,
+    "FP": 7010,
+    "FN": 22514,
+    "MT": 107,
+    "ML": 75,
+    "Frag": 1330
+   }
+  },
+  "sort-0.25-10-3": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.25,
+    "max_age": 10,
+    "min_hits": 3
+   },
+   "tracker_fps": 2983.2,
+   "combined": {
+    "HOTA": 48.192876397697106,
+    "DetA": 46.443560498500105,
+    "AssA": 50.76829658841216,
+    "MOTA": 48.54862243584242,
+    "IDF1": 55.68890445923628,
+    "IDSW": 622,
+    "FP": 6373,
+    "FN": 22978,
+    "MT": 100,
+    "ML": 82,
+    "Frag": 1298
+   }
+  },
+  "sort-0.25-30-1": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.25,
+    "max_age": 30,
+    "min_hits": 1
+   },
+   "tracker_fps": 2506.2,
+   "combined": {
+    "HOTA": 48.379557683099115,
+    "DetA": 46.65953042543002,
+    "AssA": 50.95333357172026,
+    "MOTA": 47.989013818556344,
+    "IDF1": 56.41481832918198,
+    "IDSW": 763,
+    "FP": 7099,
+    "FN": 22437,
+    "MT": 111,
+    "ML": 73,
+    "Frag": 1351
+   }
+  },
+  "sort-0.25-30-3": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.25,
+    "max_age": 30,
+    "min_hits": 3
+   },
+   "tracker_fps": 2547.2,
+   "combined": {
+    "HOTA": 48.60256496683248,
+    "DetA": 46.53397670752754,
+    "AssA": 51.536773741711784,
+    "MOTA": 48.497124710325295,
+    "IDF1": 56.72294497638707,
+    "IDSW": 664,
+    "FP": 6493,
+    "FN": 22846,
+    "MT": 105,
+    "ML": 80,
+    "Frag": 1316
+   }
+  },
+  "sort-0.3-1-1": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.3,
+    "max_age": 1,
+    "min_hits": 1
+   },
+   "tracker_fps": 3603.1,
+   "combined": {
+    "HOTA": 45.62751099045032,
+    "DetA": 45.395410219438524,
+    "AssA": 46.574471772080685,
+    "MOTA": 47.72980860012016,
+    "IDF1": 50.93348652086497,
+    "IDSW": 762,
+    "FP": 5331,
+    "FN": 24357,
+    "MT": 105,
+    "ML": 88,
+    "Frag": 1141
+   }
+  },
+  "sort-0.3-1-3": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.3,
+    "max_age": 1,
+    "min_hits": 3
+   },
+   "tracker_fps": 3574.9,
+   "combined": {
+    "HOTA": 45.60265573431833,
+    "DetA": 44.82355599965513,
+    "AssA": 47.054248245696925,
+    "MOTA": 47.73667496352245,
+    "IDF1": 51.20231310063652,
+    "IDSW": 618,
+    "FP": 4733,
+    "FN": 25095,
+    "MT": 94,
+    "ML": 99,
+    "Frag": 1026
+   }
+  },
+  "sort-0.3-10-1": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.3,
+    "max_age": 10,
+    "min_hits": 1
+   },
+   "tracker_fps": 3192.2,
+   "combined": {
+    "HOTA": 47.1545359048676,
+    "DetA": 45.62151963554113,
+    "AssA": 49.417490345567856,
+    "MOTA": 48.13664063170543,
+    "IDF1": 54.40705046660492,
+    "IDSW": 638,
+    "FP": 5664,
+    "FN": 23911,
+    "MT": 103,
+    "ML": 85,
+    "Frag": 1307
+   }
+  },
+  "sort-0.3-10-3": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.3,
+    "max_age": 10,
+    "min_hits": 3
+   },
+   "tracker_fps": 3199.2,
+   "combined": {
+    "HOTA": 47.15469083496148,
+    "DetA": 45.31950663701386,
+    "AssA": 49.711156509097094,
+    "MOTA": 48.2619517637971,
+    "IDF1": 54.556288397131645,
+    "IDSW": 560,
+    "FP": 5204,
+    "FN": 24376,
+    "MT": 96,
+    "ML": 92,
+    "Frag": 1259
+   }
+  },
+  "sort-0.3-30-1": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.3,
+    "max_age": 30,
+    "min_hits": 1
+   },
+   "tracker_fps": 2751.0,
+   "combined": {
+    "HOTA": 47.81850699678699,
+    "DetA": 45.618054216244516,
+    "AssA": 50.82295935339787,
+    "MOTA": 48.15037335851,
+    "IDF1": 55.93587125483861,
+    "IDSW": 652,
+    "FP": 5735,
+    "FN": 23818,
+    "MT": 105,
+    "ML": 82,
+    "Frag": 1328
+   }
+  },
+  "sort-0.3-30-3": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.3,
+    "max_age": 30,
+    "min_hits": 3
+   },
+   "tracker_fps": 2717.4,
+   "combined": {
+    "HOTA": 47.86368327157766,
+    "DetA": 45.38669890395683,
+    "AssA": 51.13825502148327,
+    "MOTA": 48.37696335078534,
+    "IDF1": 56.09756097560976,
+    "IDSW": 575,
+    "FP": 5284,
+    "FN": 24214,
+    "MT": 100,
+    "ML": 90,
+    "Frag": 1288
+   }
+  },
+  "sort-0.4-1-1": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.4,
+    "max_age": 1,
+    "min_hits": 1
+   },
+   "tracker_fps": 4068.9,
+   "combined": {
+    "HOTA": 44.658088639006124,
+    "DetA": 42.52082646555916,
+    "AssA": 47.43158843771032,
+    "MOTA": 45.87932366320487,
+    "IDF1": 49.88962947808203,
+    "IDSW": 659,
+    "FP": 3614,
+    "FN": 27255,
+    "MT": 92,
+    "ML": 103,
+    "Frag": 1103
+   }
+  },
+  "sort-0.4-1-3": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.4,
+    "max_age": 1,
+    "min_hits": 3
+   },
+   "tracker_fps": 3715.6,
+   "combined": {
+    "HOTA": 44.59615139522978,
+    "DetA": 41.858662431614206,
+    "AssA": 48.00295272552413,
+    "MOTA": 45.5840700369067,
+    "IDF1": 50.0577430109167,
+    "IDSW": 528,
+    "FP": 3224,
+    "FN": 27948,
+    "MT": 82,
+    "ML": 113,
+    "Frag": 939
+   }
+  },
+  "sort-0.4-10-1": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.4,
+    "max_age": 10,
+    "min_hits": 1
+   },
+   "tracker_fps": 3477.1,
+   "combined": {
+    "HOTA": 46.532557516314625,
+    "DetA": 42.919717918232436,
+    "AssA": 51.0186717440841,
+    "MOTA": 46.54364432237576,
+    "IDF1": 53.87922736315215,
+    "IDSW": 485,
+    "FP": 3822,
+    "FN": 26834,
+    "MT": 94,
+    "ML": 103,
+    "Frag": 1283
+   }
+  },
+  "sort-0.4-10-3": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.4,
+    "max_age": 10,
+    "min_hits": 3
+   },
+   "tracker_fps": 3351.7,
+   "combined": {
+    "HOTA": 46.47475801378224,
+    "DetA": 42.55272464664158,
+    "AssA": 51.29987856938413,
+    "MOTA": 46.46124796154837,
+    "IDF1": 53.93820479096143,
+    "IDSW": 415,
+    "FP": 3511,
+    "FN": 27263,
+    "MT": 85,
+    "ML": 108,
+    "Frag": 1184
+   }
+  },
+  "sort-0.4-30-1": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.4,
+    "max_age": 30,
+    "min_hits": 1
+   },
+   "tracker_fps": 3206.6,
+   "combined": {
+    "HOTA": 47.58344470219327,
+    "DetA": 43.01586071223911,
+    "AssA": 53.21158423714164,
+    "MOTA": 46.66208909106515,
+    "IDF1": 55.84821857550101,
+    "IDSW": 503,
+    "FP": 3860,
+    "FN": 26709,
+    "MT": 96,
+    "ML": 103,
+    "Frag": 1308
+   }
+  },
+  "sort-0.4-30-3": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.4,
+    "max_age": 30,
+    "min_hits": 3
+   },
+   "tracker_fps": 3233.4,
+   "combined": {
+    "HOTA": 47.497308337341096,
+    "DetA": 42.7492041937226,
+    "AssA": 53.3313406709796,
+    "MOTA": 46.67582181786971,
+    "IDF1": 55.74824483125652,
+    "IDSW": 429,
+    "FP": 3568,
+    "FN": 27067,
+    "MT": 86,
+    "ML": 106,
+    "Frag": 1237
+   }
+  },
+  "sort-0.5-1-1": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.5,
+    "max_age": 1,
+    "min_hits": 1
+   },
+   "tracker_fps": 4619.6,
+   "combined": {
+    "HOTA": 42.69608152101531,
+    "DetA": 39.026251799341765,
+    "AssA": 47.13031139616151,
+    "MOTA": 42.68303149944211,
+    "IDF1": 47.035354844526594,
+    "IDSW": 603,
+    "FP": 2503,
+    "FN": 30284,
+    "MT": 74,
+    "ML": 130,
+    "Frag": 1086
+   }
+  },
+  "sort-0.5-1-3": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.5,
+    "max_age": 1,
+    "min_hits": 3
+   },
+   "tracker_fps": 4627.0,
+   "combined": {
+    "HOTA": 42.5952440651198,
+    "DetA": 38.2943950048186,
+    "AssA": 47.764729476821685,
+    "MOTA": 42.197236288730586,
+    "IDF1": 47.118856426903584,
+    "IDSW": 474,
+    "FP": 2242,
+    "FN": 30957,
+    "MT": 68,
+    "ML": 138,
+    "Frag": 911
+   }
+  },
+  "sort-0.5-10-1": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.5,
+    "max_age": 10,
+    "min_hits": 1
+   },
+   "tracker_fps": 4219.0,
+   "combined": {
+    "HOTA": 44.530552561895234,
+    "DetA": 39.50288465077291,
+    "AssA": 50.60802852454979,
+    "MOTA": 43.44863101879667,
+    "IDF1": 51.073408365529986,
+    "IDSW": 389,
+    "FP": 2670,
+    "FN": 29885,
+    "MT": 75,
+    "ML": 128,
+    "Frag": 1241
+   }
+  },
+  "sort-0.5-10-3": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.5,
+    "max_age": 10,
+    "min_hits": 3
+   },
+   "tracker_fps": 4229.7,
+   "combined": {
+    "HOTA": 44.4536309346747,
+    "DetA": 39.09566776649682,
+    "AssA": 50.935581516106986,
+    "MOTA": 43.22547420822247,
+    "IDF1": 51.08758161090626,
+    "IDSW": 335,
+    "FP": 2456,
+    "FN": 30283,
+    "MT": 72,
+    "ML": 131,
+    "Frag": 1143
+   }
+  },
+  "sort-0.5-30-1": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.5,
+    "max_age": 30,
+    "min_hits": 1
+   },
+   "tracker_fps": 3728.9,
+   "combined": {
+    "HOTA": 45.79725285651386,
+    "DetA": 39.56673899749305,
+    "AssA": 53.47482206260524,
+    "MOTA": 43.565359196635484,
+    "IDF1": 53.59858650921453,
+    "IDSW": 394,
+    "FP": 2698,
+    "FN": 29784,
+    "MT": 78,
+    "ML": 126,
+    "Frag": 1283
+   }
+  },
+  "sort-0.5-30-3": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.5,
+    "max_age": 30,
+    "min_hits": 3
+   },
+   "tracker_fps": 3773.9,
+   "combined": {
+    "HOTA": 45.75809961404301,
+    "DetA": 39.24123906685704,
+    "AssA": 53.80008203270609,
+    "MOTA": 43.419448974336966,
+    "IDF1": 53.594815364882194,
+    "IDSW": 337,
+    "FP": 2496,
+    "FN": 30128,
+    "MT": 76,
+    "ML": 129,
+    "Frag": 1199
+   }
+  },
+  "sort-0.6-1-1": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.6,
+    "max_age": 1,
+    "min_hits": 1
+   },
+   "tracker_fps": 5368.5,
+   "combined": {
+    "HOTA": 39.28864313604002,
+    "DetA": 34.602915735705736,
+    "AssA": 44.910112864405946,
+    "MOTA": 37.67058621577547,
+    "IDF1": 42.123202556364284,
+    "IDSW": 591,
+    "FP": 1852,
+    "FN": 33867,
+    "MT": 60,
+    "ML": 148,
+    "Frag": 1038
+   }
+  },
+  "sort-0.6-1-3": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.6,
+    "max_age": 1,
+    "min_hits": 3
+   },
+   "tracker_fps": 5393.1,
+   "combined": {
+    "HOTA": 39.150739091075664,
+    "DetA": 33.79715394450676,
+    "AssA": 45.628740755839296,
+    "MOTA": 37.03201441936314,
+    "IDF1": 42.11205660196959,
+    "IDSW": 454,
+    "FP": 1695,
+    "FN": 34533,
+    "MT": 56,
+    "ML": 162,
+    "Frag": 850
+   }
+  },
+  "sort-0.6-10-1": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.6,
+    "max_age": 10,
+    "min_hits": 1
+   },
+   "tracker_fps": 4897.7,
+   "combined": {
+    "HOTA": 41.9880618365096,
+    "DetA": 35.10510661090038,
+    "AssA": 50.535110818627274,
+    "MOTA": 38.623294137842244,
+    "IDF1": 47.35349827645031,
+    "IDSW": 364,
+    "FP": 1940,
+    "FN": 33451,
+    "MT": 64,
+    "ML": 147,
+    "Frag": 1177
+   }
+  },
+  "sort-0.6-10-3": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.6,
+    "max_age": 10,
+    "min_hits": 3
+   },
+   "tracker_fps": 4902.1,
+   "combined": {
+    "HOTA": 41.884430868820886,
+    "DetA": 34.66074908392883,
+    "AssA": 50.91073661735274,
+    "MOTA": 38.28340914942923,
+    "IDF1": 47.301696279548764,
+    "IDSW": 308,
+    "FP": 1807,
+    "FN": 33838,
+    "MT": 61,
+    "ML": 155,
+    "Frag": 1058
+   }
+  },
+  "sort-0.6-30-1": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.6,
+    "max_age": 30,
+    "min_hits": 1
+   },
+   "tracker_fps": 4364.9,
+   "combined": {
+    "HOTA": 42.6829349059161,
+    "DetA": 35.177531853864394,
+    "AssA": 52.11058589593327,
+    "MOTA": 38.77435413269247,
+    "IDF1": 48.65487183101901,
+    "IDSW": 345,
+    "FP": 1967,
+    "FN": 33355,
+    "MT": 65,
+    "ML": 145,
+    "Frag": 1214
+   }
+  },
+  "sort-0.6-30-3": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.6,
+    "max_age": 30,
+    "min_hits": 3
+   },
+   "tracker_fps": 4267.3,
+   "combined": {
+    "HOTA": 42.6186946016143,
+    "DetA": 34.81297604656356,
+    "AssA": 52.476868576024785,
+    "MOTA": 38.508282550854005,
+    "IDF1": 48.630452499911414,
+    "IDSW": 291,
+    "FP": 1842,
+    "FN": 33689,
+    "MT": 61,
+    "ML": 152,
+    "Frag": 1117
+   }
+  },
+  "sort-0.7-1-1": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.7,
+    "max_age": 1,
+    "min_hits": 1
+   },
+   "tracker_fps": 6466.7,
+   "combined": {
+    "HOTA": 35.72919800202718,
+    "DetA": 29.130918661966998,
+    "AssA": 44.056057678510655,
+    "MOTA": 31.629903012616943,
+    "IDF1": 36.83959660829863,
+    "IDSW": 477,
+    "FP": 1283,
+    "FN": 38069,
+    "MT": 51,
+    "ML": 186,
+    "Frag": 877
+   }
+  },
+  "sort-0.7-1-3": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.7,
+    "max_age": 1,
+    "min_hits": 3
+   },
+   "tracker_fps": 6489.7,
+   "combined": {
+    "HOTA": 35.555303802944394,
+    "DetA": 28.389317928034046,
+    "AssA": 44.744897028259906,
+    "MOTA": 31.006780533859757,
+    "IDF1": 36.73464224268799,
+    "IDSW": 370,
+    "FP": 1180,
+    "FN": 38642,
+    "MT": 51,
+    "ML": 192,
+    "Frag": 724
+   }
+  },
+  "sort-0.7-10-1": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.7,
+    "max_age": 10,
+    "min_hits": 1
+   },
+   "tracker_fps": 5983.1,
+   "combined": {
+    "HOTA": 38.70353268276514,
+    "DetA": 29.608856443108607,
+    "AssA": 50.820423474966994,
+    "MOTA": 32.440133894086344,
+    "IDF1": 42.3667074174796,
+    "IDSW": 267,
+    "FP": 1371,
+    "FN": 37719,
+    "MT": 52,
+    "ML": 183,
+    "Frag": 1009
+   }
+  },
+  "sort-0.7-10-3": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.7,
+    "max_age": 10,
+    "min_hits": 3
+   },
+   "tracker_fps": 5967.2,
+   "combined": {
+    "HOTA": 38.57086711934058,
+    "DetA": 29.181656573877724,
+    "AssA": 51.19638771716756,
+    "MOTA": 32.04188481675393,
+    "IDF1": 42.21837696860267,
+    "IDSW": 229,
+    "FP": 1301,
+    "FN": 38059,
+    "MT": 52,
+    "ML": 190,
+    "Frag": 907
+   }
+  },
+  "sort-0.7-30-1": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.7,
+    "max_age": 30,
+    "min_hits": 1
+   },
+   "tracker_fps": 5350.2,
+   "combined": {
+    "HOTA": 39.26630204472808,
+    "DetA": 29.68119950792742,
+    "AssA": 52.18480878737539,
+    "MOTA": 32.58261093468372,
+    "IDF1": 43.35634705017323,
+    "IDSW": 238,
+    "FP": 1384,
+    "FN": 37652,
+    "MT": 54,
+    "ML": 183,
+    "Frag": 1034
+   }
+  },
+  "sort-0.7-30-3": {
+   "tracker": "sort",
+   "dets": "yolo11x",
+   "params": {
+    "det_thresh": 0.7,
+    "max_age": 30,
+    "min_hits": 3
+   },
+   "tracker_fps": 5336.7,
+   "combined": {
+    "HOTA": 39.132178813744595,
+    "DetA": 29.33770754381486,
+    "AssA": 52.421126528069586,
+    "MOTA": 32.27877435413269,
+    "IDF1": 43.16739476022982,
+    "IDSW": 208,
+    "FP": 1311,
+    "FN": 37932,
+    "MT": 53,
+    "ML": 190,
+    "Frag": 950
+   }
+  },
+  "byte-0.2-0.7-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.2,
+    "match_thresh": 0.7,
+    "track_buffer": 30,
+    "new_track_thresh": 0.3
+   },
+   "tracker_fps": 2382.3,
+   "combined": {
+    "HOTA": 46.425459508083584,
+    "DetA": 44.406136630683484,
+    "AssA": 49.172728256515825,
+    "MOTA": 47.214831344948934,
+    "IDF1": 53.34420710349947,
+    "IDSW": 797,
+    "FP": 4543,
+    "FN": 25410,
+    "MT": 91,
+    "ML": 99,
+    "Frag": 1267
+   }
+  },
+  "byte-0.2-0.7-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.2,
+    "match_thresh": 0.7,
+    "track_buffer": 60,
+    "new_track_thresh": 0.3
+   },
+   "tracker_fps": 2061.0,
+   "combined": {
+    "HOTA": 46.24536764633873,
+    "DetA": 44.40520400988874,
+    "AssA": 48.79724035532867,
+    "MOTA": 47.15646725602953,
+    "IDF1": 53.04539610532147,
+    "IDSW": 817,
+    "FP": 4563,
+    "FN": 25404,
+    "MT": 92,
+    "ML": 98,
+    "Frag": 1274
+   }
+  },
+  "byte-0.2-0.8-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.2,
+    "match_thresh": 0.8,
+    "track_buffer": 30,
+    "new_track_thresh": 0.3
+   },
+   "tracker_fps": 2500.6,
+   "combined": {
+    "HOTA": 49.66453462584013,
+    "DetA": 46.875135003797006,
+    "AssA": 53.388957863576515,
+    "MOTA": 49.84636511887391,
+    "IDF1": 58.257396330938136,
+    "IDSW": 467,
+    "FP": 5942,
+    "FN": 22808,
+    "MT": 103,
+    "ML": 85,
+    "Frag": 878
+   }
+  },
+  "byte-0.2-0.8-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.2,
+    "match_thresh": 0.8,
+    "track_buffer": 60,
+    "new_track_thresh": 0.3
+   },
+   "tracker_fps": 2294.7,
+   "combined": {
+    "HOTA": 49.610244613672094,
+    "DetA": 46.89136818481572,
+    "AssA": 53.255696068743674,
+    "MOTA": 49.84636511887391,
+    "IDF1": 58.31076336643595,
+    "IDSW": 481,
+    "FP": 5958,
+    "FN": 22778,
+    "MT": 104,
+    "ML": 85,
+    "Frag": 882
+   }
+  },
+  "byte-0.2-0.9-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.2,
+    "match_thresh": 0.9,
+    "track_buffer": 30,
+    "new_track_thresh": 0.3
+   },
+   "tracker_fps": 2487.1,
+   "combined": {
+    "HOTA": 51.88706254544467,
+    "DetA": 48.1960896535903,
+    "AssA": 56.636439578904984,
+    "MOTA": 50.48837009698738,
+    "IDF1": 61.43986910280883,
+    "IDSW": 355,
+    "FP": 7327,
+    "FN": 21161,
+    "MT": 121,
+    "ML": 72,
+    "Frag": 750
+   }
+  },
+  "byte-0.2-0.9-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.2,
+    "match_thresh": 0.9,
+    "track_buffer": 60,
+    "new_track_thresh": 0.3
+   },
+   "tracker_fps": 2332.0,
+   "combined": {
+    "HOTA": 51.803369641067455,
+    "DetA": 48.297306583889345,
+    "AssA": 56.361382851952094,
+    "MOTA": 50.67032872714788,
+    "IDF1": 61.61175223854477,
+    "IDSW": 360,
+    "FP": 7362,
+    "FN": 21015,
+    "MT": 120,
+    "ML": 72,
+    "Frag": 759
+   }
+  },
+  "byte-0.2-0.95-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.2,
+    "match_thresh": 0.95,
+    "track_buffer": 30,
+    "new_track_thresh": 0.3
+   },
+   "tracker_fps": 2491.1,
+   "combined": {
+    "HOTA": 52.03045595909439,
+    "DetA": 48.23201844577375,
+    "AssA": 56.90111363715392,
+    "MOTA": 50.31327783022916,
+    "IDF1": 61.76339588295669,
+    "IDSW": 365,
+    "FP": 7674,
+    "FN": 20906,
+    "MT": 125,
+    "ML": 71,
+    "Frag": 779
+   }
+  },
+  "byte-0.2-0.95-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.2,
+    "match_thresh": 0.95,
+    "track_buffer": 60,
+    "new_track_thresh": 0.3
+   },
+   "tracker_fps": 2351.1,
+   "combined": {
+    "HOTA": 51.7702768890838,
+    "DetA": 48.35736659375357,
+    "AssA": 56.229680474264235,
+    "MOTA": 50.45403827997597,
+    "IDF1": 61.62492033757556,
+    "IDSW": 369,
+    "FP": 7773,
+    "FN": 20721,
+    "MT": 125,
+    "ML": 71,
+    "Frag": 789
+   }
+  },
+  "byte-0.25-0.7-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.25,
+    "match_thresh": 0.7,
+    "track_buffer": 30,
+    "new_track_thresh": 0.35
+   },
+   "tracker_fps": 2515.6,
+   "combined": {
+    "HOTA": 46.40361519924981,
+    "DetA": 44.36035952916883,
+    "AssA": 49.1571751059714,
+    "MOTA": 47.45687065487941,
+    "IDF1": 53.73808801531429,
+    "IDSW": 690,
+    "FP": 4503,
+    "FN": 25416,
+    "MT": 93,
+    "ML": 100,
+    "Frag": 1083
+   }
+  },
+  "byte-0.25-0.7-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.25,
+    "match_thresh": 0.7,
+    "track_buffer": 60,
+    "new_track_thresh": 0.35
+   },
+   "tracker_fps": 2200.6,
+   "combined": {
+    "HOTA": 46.323628914438935,
+    "DetA": 44.38355929018643,
+    "AssA": 48.96306791267473,
+    "MOTA": 47.44828770062656,
+    "IDF1": 53.64241872915294,
+    "IDSW": 711,
+    "FP": 4515,
+    "FN": 25388,
+    "MT": 92,
+    "ML": 100,
+    "Frag": 1102
+   }
+  },
+  "byte-0.25-0.8-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.25,
+    "match_thresh": 0.8,
+    "track_buffer": 30,
+    "new_track_thresh": 0.35
+   },
+   "tracker_fps": 2502.3,
+   "combined": {
+    "HOTA": 50.53461648155775,
+    "DetA": 47.23372649526731,
+    "AssA": 54.81325160606959,
+    "MOTA": 50.593082138872205,
+    "IDF1": 59.81160753569858,
+    "IDSW": 412,
+    "FP": 5932,
+    "FN": 22438,
+    "MT": 108,
+    "ML": 84,
+    "Frag": 694
+   }
+  },
+  "byte-0.25-0.8-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.25,
+    "match_thresh": 0.8,
+    "track_buffer": 60,
+    "new_track_thresh": 0.35
+   },
+   "tracker_fps": 2343.0,
+   "combined": {
+    "HOTA": 50.103715807593574,
+    "DetA": 47.2415562743429,
+    "AssA": 53.92163111681545,
+    "MOTA": 50.48322032443567,
+    "IDF1": 59.13469224620304,
+    "IDSW": 444,
+    "FP": 5986,
+    "FN": 22416,
+    "MT": 110,
+    "ML": 84,
+    "Frag": 698
+   }
+  },
+  "byte-0.25-0.9-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.25,
+    "match_thresh": 0.9,
+    "track_buffer": 30,
+    "new_track_thresh": 0.35
+   },
+   "tracker_fps": 2556.7,
+   "combined": {
+    "HOTA": 51.456893703586125,
+    "DetA": 47.93923112983478,
+    "AssA": 55.97009529682432,
+    "MOTA": 50.83855463050382,
+    "IDF1": 61.31241758025469,
+    "IDSW": 345,
+    "FP": 6699,
+    "FN": 21595,
+    "MT": 118,
+    "ML": 75,
+    "Frag": 718
+   }
+  },
+  "byte-0.25-0.9-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.25,
+    "match_thresh": 0.9,
+    "track_buffer": 60,
+    "new_track_thresh": 0.35
+   },
+   "tracker_fps": 2398.5,
+   "combined": {
+    "HOTA": 51.36645659229856,
+    "DetA": 48.03365826955655,
+    "AssA": 55.68021169841898,
+    "MOTA": 50.9278173547335,
+    "IDF1": 61.23829088728782,
+    "IDSW": 358,
+    "FP": 6728,
+    "FN": 21501,
+    "MT": 117,
+    "ML": 74,
+    "Frag": 727
+   }
+  },
+  "byte-0.25-0.95-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.25,
+    "match_thresh": 0.95,
+    "track_buffer": 30,
+    "new_track_thresh": 0.35
+   },
+   "tracker_fps": 2568.0,
+   "combined": {
+    "HOTA": 51.37045488954497,
+    "DetA": 48.044849127730004,
+    "AssA": 55.66715789202842,
+    "MOTA": 50.83683803965325,
+    "IDF1": 61.21988321311154,
+    "IDSW": 345,
+    "FP": 6840,
+    "FN": 21455,
+    "MT": 121,
+    "ML": 75,
+    "Frag": 742
+   }
+  },
+  "byte-0.25-0.95-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.25,
+    "match_thresh": 0.95,
+    "track_buffer": 60,
+    "new_track_thresh": 0.35
+   },
+   "tracker_fps": 2427.9,
+   "combined": {
+    "HOTA": 51.54983650658412,
+    "DetA": 48.14658084234467,
+    "AssA": 55.93803783907511,
+    "MOTA": 50.83683803965325,
+    "IDF1": 61.242276168000075,
+    "IDSW": 339,
+    "FP": 6955,
+    "FN": 21346,
+    "MT": 121,
+    "ML": 73,
+    "Frag": 744
+   }
+  },
+  "byte-0.3-0.7-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.3,
+    "match_thresh": 0.7,
+    "track_buffer": 30,
+    "new_track_thresh": 0.4
+   },
+   "tracker_fps": 2614.0,
+   "combined": {
+    "HOTA": 46.910840093218496,
+    "DetA": 44.35842030445436,
+    "AssA": 50.239646867122204,
+    "MOTA": 47.64741223929276,
+    "IDF1": 54.338147691407315,
+    "IDSW": 564,
+    "FP": 4555,
+    "FN": 25379,
+    "MT": 94,
+    "ML": 99,
+    "Frag": 900
+   }
+  },
+  "byte-0.3-0.7-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.3,
+    "match_thresh": 0.7,
+    "track_buffer": 60,
+    "new_track_thresh": 0.4
+   },
+   "tracker_fps": 2313.6,
+   "combined": {
+    "HOTA": 46.85823255989525,
+    "DetA": 44.40663878933323,
+    "AssA": 50.077910945497486,
+    "MOTA": 47.674877692901894,
+    "IDF1": 54.273571212263604,
+    "IDSW": 583,
+    "FP": 4576,
+    "FN": 25323,
+    "MT": 93,
+    "ML": 99,
+    "Frag": 909
+   }
+  },
+  "byte-0.3-0.8-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.3,
+    "match_thresh": 0.8,
+    "track_buffer": 30,
+    "new_track_thresh": 0.4
+   },
+   "tracker_fps": 2602.2,
+   "combined": {
+    "HOTA": 50.335437760733356,
+    "DetA": 46.919562865870276,
+    "AssA": 54.70604336022271,
+    "MOTA": 50.44545532572311,
+    "IDF1": 59.64834589720106,
+    "IDSW": 365,
+    "FP": 5676,
+    "FN": 22827,
+    "MT": 109,
+    "ML": 85,
+    "Frag": 621
+   }
+  },
+  "byte-0.3-0.8-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.3,
+    "match_thresh": 0.8,
+    "track_buffer": 60,
+    "new_track_thresh": 0.4
+   },
+   "tracker_fps": 2401.1,
+   "combined": {
+    "HOTA": 50.096962443245715,
+    "DetA": 46.9425252865638,
+    "AssA": 54.18331411196775,
+    "MOTA": 50.407690327010556,
+    "IDF1": 59.30186952542817,
+    "IDSW": 385,
+    "FP": 5716,
+    "FN": 22789,
+    "MT": 109,
+    "ML": 85,
+    "Frag": 624
+   }
+  },
+  "byte-0.3-0.9-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.3,
+    "match_thresh": 0.9,
+    "track_buffer": 30,
+    "new_track_thresh": 0.4
+   },
+   "tracker_fps": 2625.4,
+   "combined": {
+    "HOTA": 51.42469785071889,
+    "DetA": 47.564985270442925,
+    "AssA": 56.2929660255536,
+    "MOTA": 50.96558235344606,
+    "IDF1": 61.49836874353466,
+    "IDSW": 297,
+    "FP": 6147,
+    "FN": 22121,
+    "MT": 115,
+    "ML": 80,
+    "Frag": 673
+   }
+  },
+  "byte-0.3-0.9-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.3,
+    "match_thresh": 0.9,
+    "track_buffer": 60,
+    "new_track_thresh": 0.4
+   },
+   "tracker_fps": 2471.8,
+   "combined": {
+    "HOTA": 51.33931321138139,
+    "DetA": 47.66925796267829,
+    "AssA": 55.99650616720881,
+    "MOTA": 51.010213715560894,
+    "IDF1": 61.28336827046306,
+    "IDSW": 306,
+    "FP": 6190,
+    "FN": 22043,
+    "MT": 113,
+    "ML": 79,
+    "Frag": 679
+   }
+  },
+  "byte-0.3-0.95-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.3,
+    "match_thresh": 0.95,
+    "track_buffer": 30,
+    "new_track_thresh": 0.4
+   },
+   "tracker_fps": 2640.0,
+   "combined": {
+    "HOTA": 51.46339169455697,
+    "DetA": 47.54358075015836,
+    "AssA": 56.41677065385417,
+    "MOTA": 50.88833576517037,
+    "IDF1": 61.434688018437754,
+    "IDSW": 299,
+    "FP": 6232,
+    "FN": 22079,
+    "MT": 120,
+    "ML": 80,
+    "Frag": 687
+   }
+  },
+  "byte-0.3-0.95-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.3,
+    "match_thresh": 0.95,
+    "track_buffer": 60,
+    "new_track_thresh": 0.4
+   },
+   "tracker_fps": 2488.0,
+   "combined": {
+    "HOTA": 51.53551116934077,
+    "DetA": 47.67418591317029,
+    "AssA": 56.44392110324804,
+    "MOTA": 50.82997167625096,
+    "IDF1": 61.29879396287744,
+    "IDSW": 303,
+    "FP": 6370,
+    "FN": 21971,
+    "MT": 119,
+    "ML": 78,
+    "Frag": 693
+   }
+  },
+  "byte-0.35-0.7-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.35,
+    "match_thresh": 0.7,
+    "track_buffer": 30,
+    "new_track_thresh": 0.45
+   },
+   "tracker_fps": 2670.2,
+   "combined": {
+    "HOTA": 48.1819170077736,
+    "DetA": 44.999430030220736,
+    "AssA": 52.22879035291689,
+    "MOTA": 48.687666294738655,
+    "IDF1": 56.29695829739476,
+    "IDSW": 483,
+    "FP": 4564,
+    "FN": 24845,
+    "MT": 93,
+    "ML": 97,
+    "Frag": 736
+   }
+  },
+  "byte-0.35-0.7-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.35,
+    "match_thresh": 0.7,
+    "track_buffer": 60,
+    "new_track_thresh": 0.45
+   },
+   "tracker_fps": 2373.3,
+   "combined": {
+    "HOTA": 48.077003535465444,
+    "DetA": 45.05242652997693,
+    "AssA": 51.94810901216178,
+    "MOTA": 48.77177924641662,
+    "IDF1": 56.14953271028037,
+    "IDSW": 489,
+    "FP": 4572,
+    "FN": 24782,
+    "MT": 93,
+    "ML": 96,
+    "Frag": 742
+   }
+  },
+  "byte-0.35-0.8-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.35,
+    "match_thresh": 0.8,
+    "track_buffer": 30,
+    "new_track_thresh": 0.45
+   },
+   "tracker_fps": 2751.0,
+   "combined": {
+    "HOTA": 49.8370875724613,
+    "DetA": 45.86731721179618,
+    "AssA": 54.838242840055365,
+    "MOTA": 49.72448716848339,
+    "IDF1": 59.213864789654615,
+    "IDSW": 336,
+    "FP": 5093,
+    "FN": 23859,
+    "MT": 106,
+    "ML": 92,
+    "Frag": 572
+   }
+  },
+  "byte-0.35-0.8-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.35,
+    "match_thresh": 0.8,
+    "track_buffer": 60,
+    "new_track_thresh": 0.45
+   },
+   "tracker_fps": 2517.3,
+   "combined": {
+    "HOTA": 50.00342053249071,
+    "DetA": 46.01496433630594,
+    "AssA": 55.025115449722314,
+    "MOTA": 49.88413011758647,
+    "IDF1": 59.43615934627171,
+    "IDSW": 355,
+    "FP": 5115,
+    "FN": 23725,
+    "MT": 107,
+    "ML": 91,
+    "Frag": 581
+   }
+  },
+  "byte-0.35-0.9-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.35,
+    "match_thresh": 0.9,
+    "track_buffer": 30,
+    "new_track_thresh": 0.45
+   },
+   "tracker_fps": 2756.7,
+   "combined": {
+    "HOTA": 51.077912543006256,
+    "DetA": 46.327308534557226,
+    "AssA": 57.00142511190359,
+    "MOTA": 49.93906102480474,
+    "IDF1": 61.430193883345495,
+    "IDSW": 287,
+    "FP": 5491,
+    "FN": 23385,
+    "MT": 112,
+    "ML": 88,
+    "Frag": 638
+   }
+  },
+  "byte-0.35-0.9-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.35,
+    "match_thresh": 0.9,
+    "track_buffer": 60,
+    "new_track_thresh": 0.45
+   },
+   "tracker_fps": 2572.5,
+   "combined": {
+    "HOTA": 51.371592146393006,
+    "DetA": 46.50183163994433,
+    "AssA": 57.439323564403935,
+    "MOTA": 50.222298515148914,
+    "IDF1": 61.710375821128174,
+    "IDSW": 293,
+    "FP": 5496,
+    "FN": 23209,
+    "MT": 111,
+    "ML": 89,
+    "Frag": 643
+   }
+  },
+  "byte-0.35-0.95-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.35,
+    "match_thresh": 0.95,
+    "track_buffer": 30,
+    "new_track_thresh": 0.45
+   },
+   "tracker_fps": 2777.5,
+   "combined": {
+    "HOTA": 51.01594742240657,
+    "DetA": 46.09695449861887,
+    "AssA": 57.17798345337177,
+    "MOTA": 49.762252167195946,
+    "IDF1": 60.939178370928836,
+    "IDSW": 280,
+    "FP": 5579,
+    "FN": 23407,
+    "MT": 115,
+    "ML": 87,
+    "Frag": 653
+   }
+  },
+  "byte-0.35-0.95-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.35,
+    "match_thresh": 0.95,
+    "track_buffer": 60,
+    "new_track_thresh": 0.45
+   },
+   "tracker_fps": 2597.7,
+   "combined": {
+    "HOTA": 51.21423171243038,
+    "DetA": 46.2560142424963,
+    "AssA": 57.43106426888923,
+    "MOTA": 49.89614625354047,
+    "IDF1": 61.03678253839935,
+    "IDSW": 284,
+    "FP": 5677,
+    "FN": 23227,
+    "MT": 114,
+    "ML": 85,
+    "Frag": 657
+   }
+  },
+  "byte-0.4-0.7-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.4,
+    "match_thresh": 0.7,
+    "track_buffer": 30,
+    "new_track_thresh": 0.5
+   },
+   "tracker_fps": 2814.5,
+   "combined": {
+    "HOTA": 48.714811296852346,
+    "DetA": 44.58081547758173,
+    "AssA": 53.83327014074163,
+    "MOTA": 48.818127199382026,
+    "IDF1": 57.17607138368732,
+    "IDSW": 416,
+    "FP": 4187,
+    "FN": 25213,
+    "MT": 90,
+    "ML": 103,
+    "Frag": 628
+   }
+  },
+  "byte-0.4-0.7-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.4,
+    "match_thresh": 0.7,
+    "track_buffer": 60,
+    "new_track_thresh": 0.5
+   },
+   "tracker_fps": 2565.3,
+   "combined": {
+    "HOTA": 48.58552856536916,
+    "DetA": 44.56146862178212,
+    "AssA": 53.578950970197106,
+    "MOTA": 48.84215947129002,
+    "IDF1": 56.99748743718593,
+    "IDSW": 426,
+    "FP": 4193,
+    "FN": 25183,
+    "MT": 90,
+    "ML": 102,
+    "Frag": 635
+   }
+  },
+  "byte-0.4-0.8-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.4,
+    "match_thresh": 0.8,
+    "track_buffer": 30,
+    "new_track_thresh": 0.5
+   },
+   "tracker_fps": 2868.6,
+   "combined": {
+    "HOTA": 49.6675889243058,
+    "DetA": 44.85928375906189,
+    "AssA": 55.63030954557217,
+    "MOTA": 48.933138786370264,
+    "IDF1": 58.70986488449804,
+    "IDSW": 303,
+    "FP": 4649,
+    "FN": 24797,
+    "MT": 99,
+    "ML": 96,
+    "Frag": 530
+   }
+  },
+  "byte-0.4-0.8-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.4,
+    "match_thresh": 0.8,
+    "track_buffer": 60,
+    "new_track_thresh": 0.5
+   },
+   "tracker_fps": 2674.2,
+   "combined": {
+    "HOTA": 49.507038180459325,
+    "DetA": 44.85633628722187,
+    "AssA": 55.27937358179694,
+    "MOTA": 48.970903785082825,
+    "IDF1": 58.586487383798136,
+    "IDSW": 309,
+    "FP": 4646,
+    "FN": 24772,
+    "MT": 98,
+    "ML": 96,
+    "Frag": 539
+   }
+  },
+  "byte-0.4-0.9-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.4,
+    "match_thresh": 0.9,
+    "track_buffer": 30,
+    "new_track_thresh": 0.5
+   },
+   "tracker_fps": 2918.3,
+   "combined": {
+    "HOTA": 50.461080295166305,
+    "DetA": 45.15007480678058,
+    "AssA": 57.05039452029417,
+    "MOTA": 49.11681400738134,
+    "IDF1": 60.38106868964947,
+    "IDSW": 257,
+    "FP": 4749,
+    "FN": 24636,
+    "MT": 106,
+    "ML": 94,
+    "Frag": 579
+   }
+  },
+  "byte-0.4-0.9-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.4,
+    "match_thresh": 0.9,
+    "track_buffer": 60,
+    "new_track_thresh": 0.5
+   },
+   "tracker_fps": 2732.7,
+   "combined": {
+    "HOTA": 50.467510662453094,
+    "DetA": 45.21333632957146,
+    "AssA": 56.98524035589146,
+    "MOTA": 49.158012187795045,
+    "IDF1": 60.437560743605125,
+    "IDSW": 268,
+    "FP": 4779,
+    "FN": 24571,
+    "MT": 105,
+    "ML": 94,
+    "Frag": 589
+   }
+  },
+  "byte-0.4-0.95-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.4,
+    "match_thresh": 0.95,
+    "track_buffer": 30,
+    "new_track_thresh": 0.5
+   },
+   "tracker_fps": 2930.1,
+   "combined": {
+    "HOTA": 50.61484729904397,
+    "DetA": 45.16375766232188,
+    "AssA": 57.39516114788641,
+    "MOTA": 49.261007638829284,
+    "IDF1": 60.09328493272522,
+    "IDSW": 251,
+    "FP": 4745,
+    "FN": 24562,
+    "MT": 107,
+    "ML": 96,
+    "Frag": 594
+   }
+  },
+  "byte-0.4-0.95-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.4,
+    "match_thresh": 0.95,
+    "track_buffer": 60,
+    "new_track_thresh": 0.5
+   },
+   "tracker_fps": 2755.7,
+   "combined": {
+    "HOTA": 50.66751893884033,
+    "DetA": 45.24254034906329,
+    "AssA": 57.41149112984794,
+    "MOTA": 49.35713672646125,
+    "IDF1": 60.39282065043503,
+    "IDSW": 257,
+    "FP": 4812,
+    "FN": 24433,
+    "MT": 109,
+    "ML": 95,
+    "Frag": 600
+   }
+  },
+  "byte-0.5-0.7-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.5,
+    "match_thresh": 0.7,
+    "track_buffer": 30,
+    "new_track_thresh": 0.6
+   },
+   "tracker_fps": 3145.7,
+   "combined": {
+    "HOTA": 47.776271467830654,
+    "DetA": 42.406478862155325,
+    "AssA": 54.33637050632244,
+    "MOTA": 46.91786112780019,
+    "IDF1": 55.54810810810811,
+    "IDSW": 323,
+    "FP": 3295,
+    "FN": 27305,
+    "MT": 87,
+    "ML": 122,
+    "Frag": 498
+   }
+  },
+  "byte-0.5-0.7-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.5,
+    "match_thresh": 0.7,
+    "track_buffer": 60,
+    "new_track_thresh": 0.6
+   },
+   "tracker_fps": 2911.1,
+   "combined": {
+    "HOTA": 47.637944630883275,
+    "DetA": 42.36708527747495,
+    "AssA": 54.07900409031748,
+    "MOTA": 46.912711355248476,
+    "IDF1": 55.38225407222457,
+    "IDSW": 331,
+    "FP": 3301,
+    "FN": 27294,
+    "MT": 88,
+    "ML": 121,
+    "Frag": 499
+   }
+  },
+  "byte-0.5-0.8-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.5,
+    "match_thresh": 0.8,
+    "track_buffer": 30,
+    "new_track_thresh": 0.6
+   },
+   "tracker_fps": 3210.1,
+   "combined": {
+    "HOTA": 48.75561782495249,
+    "DetA": 42.4727039972237,
+    "AssA": 56.51497633470206,
+    "MOTA": 47.12041884816754,
+    "IDF1": 57.121600931576566,
+    "IDSW": 239,
+    "FP": 3401,
+    "FN": 27165,
+    "MT": 89,
+    "ML": 119,
+    "Frag": 454
+   }
+  },
+  "byte-0.5-0.8-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.5,
+    "match_thresh": 0.8,
+    "track_buffer": 60,
+    "new_track_thresh": 0.6
+   },
+   "tracker_fps": 2936.8,
+   "combined": {
+    "HOTA": 48.55060338581341,
+    "DetA": 42.44423267908712,
+    "AssA": 56.090184072690306,
+    "MOTA": 47.12556862071925,
+    "IDF1": 56.83985903197646,
+    "IDSW": 245,
+    "FP": 3417,
+    "FN": 27140,
+    "MT": 89,
+    "ML": 119,
+    "Frag": 459
+   }
+  },
+  "byte-0.5-0.9-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.5,
+    "match_thresh": 0.9,
+    "track_buffer": 30,
+    "new_track_thresh": 0.6
+   },
+   "tracker_fps": 3244.6,
+   "combined": {
+    "HOTA": 49.784029787875724,
+    "DetA": 42.58059918945234,
+    "AssA": 58.75694231905237,
+    "MOTA": 47.32469315938546,
+    "IDF1": 58.95742346335061,
+    "IDSW": 196,
+    "FP": 3471,
+    "FN": 27019,
+    "MT": 97,
+    "ML": 120,
+    "Frag": 486
+   }
+  },
+  "byte-0.5-0.9-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.5,
+    "match_thresh": 0.9,
+    "track_buffer": 60,
+    "new_track_thresh": 0.6
+   },
+   "tracker_fps": 3069.8,
+   "combined": {
+    "HOTA": 49.61162193901147,
+    "DetA": 42.582287816668824,
+    "AssA": 58.36694319395571,
+    "MOTA": 47.419105656166856,
+    "IDF1": 58.67362834520471,
+    "IDSW": 204,
+    "FP": 3499,
+    "FN": 26928,
+    "MT": 95,
+    "ML": 117,
+    "Frag": 492
+   }
+  },
+  "byte-0.5-0.95-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.5,
+    "match_thresh": 0.95,
+    "track_buffer": 30,
+    "new_track_thresh": 0.6
+   },
+   "tracker_fps": 3258.8,
+   "combined": {
+    "HOTA": 50.09833396836561,
+    "DetA": 42.7148866207426,
+    "AssA": 59.33176450836143,
+    "MOTA": 47.386490430006006,
+    "IDF1": 59.396153432899965,
+    "IDSW": 192,
+    "FP": 3509,
+    "FN": 26949,
+    "MT": 101,
+    "ML": 120,
+    "Frag": 502
+   }
+  },
+  "byte-0.5-0.95-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.5,
+    "match_thresh": 0.95,
+    "track_buffer": 60,
+    "new_track_thresh": 0.6
+   },
+   "tracker_fps": 3065.8,
+   "combined": {
+    "HOTA": 50.22989095711071,
+    "DetA": 43.219791326209474,
+    "AssA": 58.96652426215843,
+    "MOTA": 47.97013131920007,
+    "IDF1": 59.5,
+    "IDSW": 196,
+    "FP": 3602,
+    "FN": 26512,
+    "MT": 102,
+    "ML": 117,
+    "Frag": 508
+   }
+  },
+  "byte-0.6-0.7-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.6,
+    "match_thresh": 0.7,
+    "track_buffer": 30,
+    "new_track_thresh": 0.7
+   },
+   "tracker_fps": 3683.9,
+   "combined": {
+    "HOTA": 45.85563935255166,
+    "DetA": 37.904279843233795,
+    "AssA": 55.84068185099825,
+    "MOTA": 41.807570165651015,
+    "IDF1": 51.99940707631612,
+    "IDSW": 229,
+    "FP": 2431,
+    "FN": 31240,
+    "MT": 79,
+    "ML": 148,
+    "Frag": 364
+   }
+  },
+  "byte-0.6-0.7-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.6,
+    "match_thresh": 0.7,
+    "track_buffer": 60,
+    "new_track_thresh": 0.7
+   },
+   "tracker_fps": 3431.7,
+   "combined": {
+    "HOTA": 45.77112220162543,
+    "DetA": 37.89278563130032,
+    "AssA": 55.6598388779048,
+    "MOTA": 41.828169255857865,
+    "IDF1": 51.90663961890001,
+    "IDSW": 234,
+    "FP": 2445,
+    "FN": 31209,
+    "MT": 79,
+    "ML": 147,
+    "Frag": 366
+   }
+  },
+  "byte-0.6-0.8-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.6,
+    "match_thresh": 0.8,
+    "track_buffer": 30,
+    "new_track_thresh": 0.7
+   },
+   "tracker_fps": 3721.5,
+   "combined": {
+    "HOTA": 46.944872205265725,
+    "DetA": 38.11177605046253,
+    "AssA": 58.23402214905653,
+    "MOTA": 42.2487340142477,
+    "IDF1": 53.71471447573356,
+    "IDSW": 180,
+    "FP": 2457,
+    "FN": 31006,
+    "MT": 82,
+    "ML": 147,
+    "Frag": 364
+   }
+  },
+  "byte-0.6-0.8-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.6,
+    "match_thresh": 0.8,
+    "track_buffer": 60,
+    "new_track_thresh": 0.7
+   },
+   "tracker_fps": 3516.3,
+   "combined": {
+    "HOTA": 46.96540102091798,
+    "DetA": 38.09885918167185,
+    "AssA": 58.31004720819081,
+    "MOTA": 42.24186765084542,
+    "IDF1": 53.78191362443331,
+    "IDSW": 190,
+    "FP": 2479,
+    "FN": 30978,
+    "MT": 82,
+    "ML": 147,
+    "Frag": 371
+   }
+  },
+  "byte-0.6-0.9-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.6,
+    "match_thresh": 0.9,
+    "track_buffer": 30,
+    "new_track_thresh": 0.7
+   },
+   "tracker_fps": 3700.4,
+   "combined": {
+    "HOTA": 47.64837180549018,
+    "DetA": 38.42837444957217,
+    "AssA": 59.47643301374266,
+    "MOTA": 42.75684490601665,
+    "IDF1": 54.80871473496075,
+    "IDSW": 149,
+    "FP": 2545,
+    "FN": 30653,
+    "MT": 88,
+    "ML": 140,
+    "Frag": 373
+   }
+  },
+  "byte-0.6-0.9-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.6,
+    "match_thresh": 0.9,
+    "track_buffer": 60,
+    "new_track_thresh": 0.7
+   },
+   "tracker_fps": 3561.7,
+   "combined": {
+    "HOTA": 47.55179115596134,
+    "DetA": 38.42503386340404,
+    "AssA": 59.25750209172428,
+    "MOTA": 42.79975967728092,
+    "IDF1": 54.73574754735747,
+    "IDSW": 154,
+    "FP": 2567,
+    "FN": 30601,
+    "MT": 88,
+    "ML": 139,
+    "Frag": 380
+   }
+  },
+  "byte-0.6-0.95-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.6,
+    "match_thresh": 0.95,
+    "track_buffer": 30,
+    "new_track_thresh": 0.7
+   },
+   "tracker_fps": 3711.3,
+   "combined": {
+    "HOTA": 47.774151757790186,
+    "DetA": 38.7122652933329,
+    "AssA": 59.36176409230761,
+    "MOTA": 42.96970217148743,
+    "IDF1": 55.53389744572015,
+    "IDSW": 144,
+    "FP": 2661,
+    "FN": 30418,
+    "MT": 90,
+    "ML": 139,
+    "Frag": 394
+   }
+  },
+  "byte-0.6-0.95-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.6,
+    "match_thresh": 0.95,
+    "track_buffer": 60,
+    "new_track_thresh": 0.7
+   },
+   "tracker_fps": 3546.8,
+   "combined": {
+    "HOTA": 47.66254360514296,
+    "DetA": 38.714877731068334,
+    "AssA": 59.095922165529124,
+    "MOTA": 43.00575057934941,
+    "IDF1": 55.292700228575285,
+    "IDSW": 149,
+    "FP": 2677,
+    "FN": 30376,
+    "MT": 90,
+    "ML": 139,
+    "Frag": 394
+   }
+  },
+  "byte-0.7-0.7-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.7,
+    "match_thresh": 0.7,
+    "track_buffer": 30,
+    "new_track_thresh": 0.8
+   },
+   "tracker_fps": 4866.1,
+   "combined": {
+    "HOTA": 40.821007482501805,
+    "DetA": 29.563341610755913,
+    "AssA": 56.569307722773964,
+    "MOTA": 32.34057162475324,
+    "IDF1": 44.228111889852975,
+    "IDSW": 118,
+    "FP": 1558,
+    "FN": 37739,
+    "MT": 55,
+    "ML": 206,
+    "Frag": 201
+   }
+  },
+  "byte-0.7-0.7-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.7,
+    "match_thresh": 0.7,
+    "track_buffer": 60,
+    "new_track_thresh": 0.8
+   },
+   "tracker_fps": 4595.8,
+   "combined": {
+    "HOTA": 40.80346464493895,
+    "DetA": 29.573963187820546,
+    "AssA": 56.50033168519071,
+    "MOTA": 32.34228821560381,
+    "IDF1": 44.19108311966344,
+    "IDSW": 118,
+    "FP": 1564,
+    "FN": 37732,
+    "MT": 55,
+    "ML": 206,
+    "Frag": 201
+   }
+  },
+  "byte-0.7-0.8-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.7,
+    "match_thresh": 0.8,
+    "track_buffer": 30,
+    "new_track_thresh": 0.8
+   },
+   "tracker_fps": 4868.5,
+   "combined": {
+    "HOTA": 41.40331525029928,
+    "DetA": 29.670432226145156,
+    "AssA": 58.00881320981483,
+    "MOTA": 32.48133207450004,
+    "IDF1": 45.113006290559184,
+    "IDSW": 99,
+    "FP": 1581,
+    "FN": 37653,
+    "MT": 57,
+    "ML": 206,
+    "Frag": 198
+   }
+  },
+  "byte-0.7-0.8-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.7,
+    "match_thresh": 0.8,
+    "track_buffer": 60,
+    "new_track_thresh": 0.8
+   },
+   "tracker_fps": 4633.9,
+   "combined": {
+    "HOTA": 41.47188857818132,
+    "DetA": 29.707029027735786,
+    "AssA": 58.129422780817094,
+    "MOTA": 32.52939661831603,
+    "IDF1": 45.26182369460944,
+    "IDSW": 101,
+    "FP": 1584,
+    "FN": 37620,
+    "MT": 57,
+    "ML": 205,
+    "Frag": 203
+   }
+  },
+  "byte-0.7-0.9-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.7,
+    "match_thresh": 0.9,
+    "track_buffer": 30,
+    "new_track_thresh": 0.8
+   },
+   "tracker_fps": 4786.0,
+   "combined": {
+    "HOTA": 42.520270586604816,
+    "DetA": 30.29884937546653,
+    "AssA": 59.93389579067754,
+    "MOTA": 33.19543386833748,
+    "IDF1": 46.75664662081228,
+    "IDSW": 90,
+    "FP": 1649,
+    "FN": 37178,
+    "MT": 59,
+    "ML": 200,
+    "Frag": 210
+   }
+  },
+  "byte-0.7-0.9-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.7,
+    "match_thresh": 0.9,
+    "track_buffer": 60,
+    "new_track_thresh": 0.8
+   },
+   "tracker_fps": 4540.7,
+   "combined": {
+    "HOTA": 42.866041865417145,
+    "DetA": 30.7927922225208,
+    "AssA": 59.93565476186325,
+    "MOTA": 33.737876577117845,
+    "IDF1": 47.18170535396109,
+    "IDSW": 92,
+    "FP": 1689,
+    "FN": 36820,
+    "MT": 59,
+    "ML": 199,
+    "Frag": 217
+   }
+  },
+  "byte-0.7-0.95-30": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.7,
+    "match_thresh": 0.95,
+    "track_buffer": 30,
+    "new_track_thresh": 0.8
+   },
+   "tracker_fps": 4745.7,
+   "combined": {
+    "HOTA": 42.5220094703196,
+    "DetA": 30.542416471394663,
+    "AssA": 59.4916958782522,
+    "MOTA": 33.53188567504935,
+    "IDF1": 46.84578289538431,
+    "IDSW": 91,
+    "FP": 1704,
+    "FN": 36926,
+    "MT": 60,
+    "ML": 199,
+    "Frag": 231
+   }
+  },
+  "byte-0.7-0.95-60": {
+   "tracker": "bytetrack",
+   "dets": "yolo11x",
+   "params": {
+    "track_thresh": 0.7,
+    "match_thresh": 0.95,
+    "track_buffer": 60,
+    "new_track_thresh": 0.8
+   },
+   "tracker_fps": 4466.0,
+   "combined": {
+    "HOTA": 42.89091531364835,
+    "DetA": 30.9705353478037,
+    "AssA": 59.68552019005874,
+    "MOTA": 34.046862930220584,
+    "IDF1": 47.417426247182206,
+    "IDSW": 87,
+    "FP": 1724,
+    "FN": 36610,
+    "MT": 60,
+    "ML": 199,
+    "Frag": 237
+   }
+  }
+ }
+}
