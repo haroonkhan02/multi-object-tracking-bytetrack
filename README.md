@@ -10,12 +10,13 @@ Tracking pedestrians with persistent IDs: YOLO detections, a Kalman-filter SORT 
   <img src="https://img.shields.io/badge/license-MIT-green" alt="MIT license">
 </p>
 
-> **Work in progress.** The MOT17 download, file I/O, sequence loader, tune/validation split and
-> dataset statistics are in place. Next come the detector, the Kalman filter with SORT and
-> ByteTrack, then evaluation with TrackEval, a demo video and a failure analysis. This README
-> will be rewritten with results when the project is finished.
+> **Work in progress.** Detection (COCO-pretrained YOLO11x, person class), the Kalman filter,
+> SORT and ByteTrack are implemented and scored with TrackEval on the validation halves. First
+> result: tuned ByteTrack reaches HOTA 51.1 and IDF1 59.8 against 48.9 and 56.4 for tuned SORT,
+> with about half the ID switches ([full tables](reports/results_val.md)). Still to come: error
+> analysis of occlusions and crowded scenes, a tracked demo video and the final write-up.
 
-## Planned approach
+## Approach
 
 ```mermaid
 flowchart LR
@@ -41,6 +42,10 @@ uv venv --python 3.12 && source .venv/bin/activate
 uv pip install -e ".[dev]"
 mot-download     # 5.9 GB archive from motchallenge.net, resumable; extracts the train sequences
 mot-check        # per-sequence statistics -> reports/dataset_stats.md
+uv pip install -e ".[detect,eval]"
+mot-detect                 # YOLO11x person boxes for every frame, cached in outputs/
+mot-experiments tune       # parameter grid on the first halves -> reports/tuning.md
+mot-experiments val        # SORT vs ByteTrack on the second halves -> reports/results_val.md
 pytest -q
 ```
 
@@ -56,8 +61,15 @@ src/mot_track/
   boxes.py          box conversions and IoU
   viz.py            draw boxes and IDs
   dataset_stats.py  per-sequence statistics and a ground-truth figure
+  detect.py         YOLO person detector, cached per sequence
+  kalman.py         constant-velocity Kalman filter on (cx, cy, aspect, height)
+  association.py    IoU cost, score fusion, Hungarian matching
+  trackers.py       SORT and ByteTrack
+  track.py          run a tracker over cached detections
+  evaluate.py       TrackEval wrapper (HOTA, CLEAR, Identity) on split halves
+  experiments.py    parameter search and validation runs
 tests/              synthetic sequence fixtures, no dataset needed
-reports/            dataset statistics and figures
+reports/            dataset statistics, tuning grid, validation results
 ```
 
 ## License
