@@ -10,6 +10,7 @@ RAW_DIR = DATA_DIR / "raw"
 MOT17_DIR = DATA_DIR / "MOT17"
 REPORTS_DIR = ROOT / "reports"
 MODELS_DIR = ROOT / "models"
+OUTPUTS_DIR = ROOT / "outputs"
 
 MOT17_URL = "https://motchallenge.net/data/MOT17.zip"
 MOT17_ZIP_BYTES = 5_860_214_001
