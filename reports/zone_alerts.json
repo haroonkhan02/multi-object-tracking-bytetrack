@@ -1,0 +1,56 @@
+{
+ "MOT17-02": {
+  "SORT, tuned": {
+   "visits": 10,
+   "alerts": 12,
+   "correct": 8,
+   "duplicate": 2,
+   "false": 2,
+   "missed": 2
+  },
+  "ByteTrack, tuned": {
+   "visits": 10,
+   "alerts": 12,
+   "correct": 7,
+   "duplicate": 1,
+   "false": 4,
+   "missed": 3
+  }
+ },
+ "MOT17-04": {
+  "SORT, tuned": {
+   "visits": 8,
+   "alerts": 14,
+   "correct": 7,
+   "duplicate": 3,
+   "false": 4,
+   "missed": 1
+  },
+  "ByteTrack, tuned": {
+   "visits": 8,
+   "alerts": 10,
+   "correct": 7,
+   "duplicate": 2,
+   "false": 1,
+   "missed": 1
+  }
+ },
+ "MOT17-09": {
+  "SORT, tuned": {
+   "visits": 9,
+   "alerts": 8,
+   "correct": 7,
+   "duplicate": 0,
+   "false": 1,
+   "missed": 2
+  },
+  "ByteTrack, tuned": {
+   "visits": 9,
+   "alerts": 12,
+   "correct": 7,
+   "duplicate": 0,
+   "false": 5,
+   "missed": 2
+  }
+ }
+}

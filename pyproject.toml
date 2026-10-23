@@ -34,6 +34,7 @@ mot-track = "mot_track.track:main"
 mot-experiments = "mot_track.experiments:main"
 mot-analyse = "mot_track.analysis:main"
 mot-demo = "mot_track.demo:main"
+mot-zones = "mot_track.zones:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
