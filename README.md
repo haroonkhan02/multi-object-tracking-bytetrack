@@ -11,7 +11,7 @@ Tracking pedestrians with persistent IDs: a COCO-pretrained YOLO11x detector, a 
 
 <img src="assets/demo.gif" width="760" alt="SORT and ByteTrack side by side on MOT17-02 with a running ID-switch counter">
 
-<sub>MOT17-02, frames 331–480 (validation half), same detections for both trackers. The counter is the running number of ID switches against the ground truth.</sub>
+<sub>MOT17-02, frames 331–480 (validation half), same detections for both trackers. The counter is the running number of ID switches against the ground truth. I picked this crowded stretch because it shows the difference most clearly; over all sequences ByteTrack has about half the switches.</sub>
 
 </div>
 
