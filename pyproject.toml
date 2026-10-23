@@ -32,6 +32,7 @@ mot-check = "mot_track.dataset_stats:main"
 mot-detect = "mot_track.detect:main"
 mot-track = "mot_track.track:main"
 mot-experiments = "mot_track.experiments:main"
+mot-analyse = "mot_track.analysis:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
