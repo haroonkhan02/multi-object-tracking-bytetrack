@@ -1,0 +1,254 @@
+{
+ "visibility": [
+  {
+   "lo": 0.0,
+   "hi": 0.2,
+   "boxes": 11576,
+   "recall SORT, tuned": 0.19980995162404977,
+   "IDSW/1k SORT, tuned": 13.735314443676572,
+   "recall ByteTrack, tuned": 0.20222874913614375,
+   "IDSW/1k ByteTrack, tuned": 9.070490670352454,
+   "recall dets >= 0.2": 0.3801831375259157,
+   "recall dets >= 0.1": 0.4180200414651002,
+   "recall any det": 0.44834139599170697
+  },
+  {
+   "lo": 0.2,
+   "hi": 0.4,
+   "boxes": 8584,
+   "recall SORT, tuned": 0.2706197576887232,
+   "IDSW/1k SORT, tuned": 8.620689655172415,
+   "recall ByteTrack, tuned": 0.30789841565703635,
+   "IDSW/1k ByteTrack, tuned": 5.242311276794036,
+   "recall dets >= 0.2": 0.36987418452935694,
+   "recall dets >= 0.1": 0.4374417520969245,
+   "recall any det": 0.48112767940354145
+  },
+  {
+   "lo": 0.4,
+   "hi": 0.6,
+   "boxes": 6951,
+   "recall SORT, tuned": 0.5370450294921594,
+   "IDSW/1k SORT, tuned": 11.365271184002301,
+   "recall ByteTrack, tuned": 0.5544525967486692,
+   "IDSW/1k ByteTrack, tuned": 5.754567688102432,
+   "recall dets >= 0.2": 0.5885484103006762,
+   "recall dets >= 0.1": 0.6601927780175514,
+   "recall any det": 0.682923320385556
+  },
+  {
+   "lo": 0.6,
+   "hi": 0.8,
+   "boxes": 5970,
+   "recall SORT, tuned": 0.7860971524288107,
+   "IDSW/1k SORT, tuned": 11.557788944723619,
+   "recall ByteTrack, tuned": 0.8033500837520938,
+   "IDSW/1k ByteTrack, tuned": 3.3500837520938025,
+   "recall dets >= 0.2": 0.8346733668341708,
+   "recall dets >= 0.1": 0.8943048576214405,
+   "recall any det": 0.9155778894472362
+  },
+  {
+   "lo": 0.8,
+   "hi": 1.01,
+   "boxes": 20961,
+   "recall SORT, tuned": 0.9354992605314632,
+   "IDSW/1k SORT, tuned": 6.5359477124183005,
+   "recall ByteTrack, tuned": 0.9275797910405038,
+   "IDSW/1k ByteTrack, tuned": 2.9101664996899004,
+   "recall dets >= 0.2": 0.9562520872095797,
+   "recall dets >= 0.1": 0.9674156767329803,
+   "recall any det": 0.9721387338390344
+  }
+ ],
+ "height": [
+  {
+   "lo": 0,
+   "hi": 50,
+   "boxes": 1636,
+   "recall SORT, tuned": 0.30745721271393645,
+   "IDSW/1k SORT, tuned": 22.616136919315405,
+   "recall ByteTrack, tuned": 0.3117359413202934,
+   "IDSW/1k ByteTrack, tuned": 9.168704156479217,
+   "recall dets >= 0.2": 0.3973105134474328,
+   "recall dets >= 0.1": 0.44254278728606355,
+   "recall any det": 0.4737163814180929
+  },
+  {
+   "lo": 50,
+   "hi": 100,
+   "boxes": 7613,
+   "recall SORT, tuned": 0.473532116117168,
+   "IDSW/1k SORT, tuned": 17.99553395507684,
+   "recall ByteTrack, tuned": 0.4726126362800473,
+   "IDSW/1k ByteTrack, tuned": 9.326152633652962,
+   "recall dets >= 0.2": 0.577958754761592,
+   "recall dets >= 0.1": 0.6211743071062656,
+   "recall any det": 0.6586102719033232
+  },
+  {
+   "lo": 100,
+   "hi": 200,
+   "boxes": 27204,
+   "recall SORT, tuned": 0.5542199676518159,
+   "IDSW/1k SORT, tuned": 7.021026319658874,
+   "recall ByteTrack, tuned": 0.5670857226878401,
+   "IDSW/1k ByteTrack, tuned": 3.34509630936627,
+   "recall dets >= 0.2": 0.6377370974856639,
+   "recall dets >= 0.1": 0.6953021614468461,
+   "recall any det": 0.7194162623143655
+  },
+  {
+   "lo": 200,
+   "hi": 10000,
+   "boxes": 17589,
+   "recall SORT, tuned": 0.766729205753596,
+   "IDSW/1k SORT, tuned": 8.698618454716016,
+   "recall ByteTrack, tuned": 0.7699130138154529,
+   "IDSW/1k ByteTrack, tuned": 5.344249246688271,
+   "recall dets >= 0.2": 0.8127238615043493,
+   "recall dets >= 0.1": 0.8205128205128205,
+   "recall any det": 0.827221558928876
+  }
+ ],
+ "overlap": [
+  {
+   "lo": -1.0,
+   "hi": 1e-09,
+   "boxes": 12976,
+   "recall SORT, tuned": 0.6610665844636252,
+   "IDSW/1k SORT, tuned": 4.2385943279901355,
+   "recall ByteTrack, tuned": 0.6589858199753391,
+   "IDSW/1k ByteTrack, tuned": 1.2330456226880395,
+   "recall dets >= 0.2": 0.6757860665844636,
+   "recall dets >= 0.1": 0.7079993834771886,
+   "recall any det": 0.721562885326757
+  },
+  {
+   "lo": 1e-09,
+   "hi": 0.1,
+   "boxes": 10007,
+   "recall SORT, tuned": 0.6638353152793045,
+   "IDSW/1k SORT, tuned": 8.693914260017987,
+   "recall ByteTrack, tuned": 0.6667332866993105,
+   "IDSW/1k ByteTrack, tuned": 4.496852203457579,
+   "recall dets >= 0.2": 0.6867192964924553,
+   "recall dets >= 0.1": 0.7200959328470071,
+   "recall any det": 0.7382832017587688
+  },
+  {
+   "lo": 0.1,
+   "hi": 0.3,
+   "boxes": 14206,
+   "recall SORT, tuned": 0.6531043221174152,
+   "IDSW/1k SORT, tuned": 12.389131352949457,
+   "recall ByteTrack, tuned": 0.6596508517527805,
+   "IDSW/1k ByteTrack, tuned": 6.616922427143461,
+   "recall dets >= 0.2": 0.6728143038152893,
+   "recall dets >= 0.1": 0.7063212727016753,
+   "recall any det": 0.7280022525693369
+  },
+  {
+   "lo": 0.3,
+   "hi": 1.01,
+   "boxes": 16853,
+   "recall SORT, tuned": 0.48489883106865245,
+   "IDSW/1k SORT, tuned": 11.867323325223996,
+   "recall ByteTrack, tuned": 0.5033525188393758,
+   "IDSW/1k ByteTrack, tuned": 6.883047528629917,
+   "recall dets >= 0.2": 0.6820744081172492,
+   "recall dets >= 0.1": 0.7341719575149825,
+   "recall any det": 0.7605174152969798
+  }
+ ],
+ "switch_gaps": {
+  "SORT, tuned": {
+   "0": 162,
+   "1-10": 196,
+   "11-30": 105,
+   "31+": 55
+  },
+  "ByteTrack, tuned": {
+   "0": 69,
+   "1-10": 90,
+   "11-30": 70,
+   "31+": 42
+  }
+ },
+ "sequences": [
+  {
+   "seq": "MOT17-02",
+   "camera": "static",
+   "boxes": 9913,
+   "mean overlap": 0.31795303571598893,
+   "share vis < 0.4": 0.6020377282356502,
+   "IDSW SORT, tuned": 111,
+   "IDSW ByteTrack, tuned": 59
+  },
+  {
+   "seq": "MOT17-04",
+   "camera": "static",
+   "boxes": 24226,
+   "mean overlap": 0.19840041591686688,
+   "share vis < 0.4": 0.35395855692231487,
+   "IDSW SORT, tuned": 72,
+   "IDSW ByteTrack, tuned": 33
+  },
+  {
+   "seq": "MOT17-05",
+   "camera": "moving",
+   "boxes": 3363,
+   "mean overlap": 0.17805088843382708,
+   "share vis < 0.4": 0.3687184061849539,
+   "IDSW SORT, tuned": 96,
+   "IDSW ByteTrack, tuned": 56
+  },
+  {
+   "seq": "MOT17-09",
+   "camera": "static",
+   "boxes": 2892,
+   "mean overlap": 0.35143155682107075,
+   "share vis < 0.4": 0.3917704011065007,
+   "IDSW SORT, tuned": 31,
+   "IDSW ByteTrack, tuned": 23
+  },
+  {
+   "seq": "MOT17-10",
+   "camera": "moving",
+   "boxes": 5946,
+   "mean overlap": 0.1549176403216399,
+   "share vis < 0.4": 0.21426168853010427,
+   "IDSW SORT, tuned": 113,
+   "IDSW ByteTrack, tuned": 58
+  },
+  {
+   "seq": "MOT17-11",
+   "camera": "moving",
+   "boxes": 4527,
+   "mean overlap": 0.1752704818247761,
+   "share vis < 0.4": 0.30991826816876517,
+   "IDSW SORT, tuned": 33,
+   "IDSW ByteTrack, tuned": 20
+  },
+  {
+   "seq": "MOT17-13",
+   "camera": "moving",
+   "boxes": 3175,
+   "mean overlap": 0.14798781704154454,
+   "share vis < 0.4": 0.17858267716535434,
+   "IDSW SORT, tuned": 62,
+   "IDSW ByteTrack, tuned": 22
+  }
+ ],
+ "totals": {
+  "SORT, tuned": {
+   "recall": 0.6045483142740831,
+   "IDSW": 518
+  },
+  "ByteTrack, tuned": {
+   "recall": 0.612060989600681,
+   "IDSW": 271
+  }
+ },
+ "boxes": 54042
+}
