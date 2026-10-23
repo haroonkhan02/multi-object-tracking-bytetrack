@@ -33,6 +33,7 @@ mot-detect = "mot_track.detect:main"
 mot-track = "mot_track.track:main"
 mot-experiments = "mot_track.experiments:main"
 mot-analyse = "mot_track.analysis:main"
+mot-demo = "mot_track.demo:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
