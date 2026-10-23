@@ -56,13 +56,13 @@ Tuned ByteTrack beats tuned SORT on all seven sequences (by 0.8 to 4.5 HOTA) and
 
 | Box group | Boxes | SORT recall | ByteTrack recall | Covered by a detection ≥ 0.2 |
 |---|---|---|---|---|
-| Visibility < 0.2 | 11,576 | 20.0 % | 20.2 % | 38.0 % |
+| Visibility < 0.2 | 11,576 | 19.9 % | 20.2 % | 38.0 % |
 | Visibility ≥ 0.8 | 20,961 | 93.5 % | 92.8 % | 95.6 % |
-| Overlap with another person > 0.3 IoU | 16,853 | 48.5 % | 50.3 % | 68.2 % |
+| Overlap with another person > 0.3 IoU | 16,853 | 48.4 % | 50.2 % | 68.2 % |
 
 - Heavily occluded people are the main source of misses. Even the detector only covers 38 % of them, and the trackers recover about half of that.
 - In crowds the trackers lose recall the detector still has: 18 to 20 points between "a detection exists" and "the tracker reported it". Boxes in a crowd compete for the same track during matching.
-- ByteTrack has fewer ID switches in every visibility bin. Direct swaps between neighbours drop from 162 to 69. Identities lost after more than 30 unmatched frames barely change (55 vs 42): a motion-only tracker has nothing to recognise a person by once the track buffer runs out.
+- ByteTrack has fewer ID switches in every visibility bin. Direct swaps between neighbours drop from 161 to 68. Identities lost after more than 30 unmatched frames barely change (56 vs 42): a motion-only tracker has nothing to recognise a person by once the track buffer runs out.
 
 Danger-zone alerts on the three static-camera sequences (a fixed zone in the lower middle of the image, one alert per person who stays at least 1 s): of 27 real visits, SORT raised 22 correct alerts and 5 duplicates, ByteTrack 21 correct and 3 duplicates. With so few visits that difference is within noise; the [full table](reports/zone_alerts.md) also lists false and missed alerts.
 
@@ -120,7 +120,7 @@ assets/demo.gif
 | One Kalman filter and matcher for both trackers | Isolates the effect of ByteTrack's two-round association. |
 | COCO-pretrained detector, no fine-tuning | Shows what tracking adds on top of an off-the-shelf detector; also reported with the public MOT17 detections for comparison. |
 | HOTA as the tuning target | MOTA mostly rewards detection and IDF1 mostly association; HOTA balances both. |
-| Own CLEAR matcher for the error analysis | TrackEval only reports totals. Re-matching per box gives 518 / 271 ID switches against TrackEval's 512 / 269, close enough to trust the breakdown. |
+| Own CLEAR matcher for the error analysis | TrackEval only reports totals. Re-matching per box reproduces TrackEval's totals (512 / 269 ID switches, 60.4 % / 61.1 % recall), so the breakdown adds up to the reported numbers. |
 
 ## Limitations and future work
 

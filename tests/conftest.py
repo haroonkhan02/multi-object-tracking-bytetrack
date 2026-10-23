@@ -26,7 +26,7 @@ def mot_root(tmp_path):
         gt.append(f"{f},1,{10 + 5 * f},20,20,40,1,1,1.0")
         gt.append(f"{f},2,{150 - 5 * f},30,20,40,1,1,0.3")
         det.append(f"{f},-1,{10 + 5 * f},20,20,40,0.9,-1,-1,-1")
-    gt.append("1,3,5,5,10,10,1,7,1.0")  # static person: distractor
+    gt.append("1,3,5,5,10,10,0,7,1.0")  # static person: distractor (conf 0, as in MOT17)
     gt.append("1,4,50,50,10,10,0,1,1.0")  # conf 0: ignored by the benchmark
     (seq_dir / "gt" / "gt.txt").write_text("\n".join(gt) + "\n")
     (seq_dir / "det" / "det.txt").write_text("\n".join(det) + "\n")

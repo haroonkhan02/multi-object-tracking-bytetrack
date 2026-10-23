@@ -58,13 +58,13 @@ def load_mot_txt(path: Path) -> np.ndarray:
 def split_gt(gt: np.ndarray) -> tuple[np.ndarray, np.ndarray]:
     """Split MOT17 ground truth into (evaluated pedestrians, distractor regions).
 
-    Rows with conf == 0 are ignored by the benchmark. Tracker boxes that match a distractor
-    (person on vehicle, static person, reflection) are discarded instead of counted as false
-    positives, so the distractors are returned separately.
+    Pedestrian rows with conf == 0 are ignored by the benchmark. Tracker boxes that match a
+    distractor (person on vehicle, static person, reflection) are discarded instead of counted
+    as false positives, so the distractors are returned separately. MOT17 marks every
+    distractor row with conf == 0 too, so they must not be filtered on conf.
     """
-    valid = gt[:, 6] > 0
-    pedestrians = gt[valid & (gt[:, 7] == CLASS_PEDESTRIAN)]
-    distractors = gt[valid & np.isin(gt[:, 7], CLASS_DISTRACTORS)]
+    pedestrians = gt[(gt[:, 6] > 0) & (gt[:, 7] == CLASS_PEDESTRIAN)]
+    distractors = gt[np.isin(gt[:, 7], CLASS_DISTRACTORS)]
     return pedestrians, distractors
 
 
